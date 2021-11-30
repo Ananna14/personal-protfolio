@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/ef84363bdb.js" crossorigin="anonymous"></script>
     <!-- google-front -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,7 +15,8 @@
 </head>
 <body>
     <div class="main">
-        <section class="home-section align-item-center">
+        <!-- home-section-start -->
+        <section class="home-section align-item-center hidden">
            <div class="container">
                <div class="row align-item-center">
                    <div class="home-text">
@@ -23,7 +26,7 @@
                        <a href="" class="btn">more about me</a>
                        <a href="/contact" class="btn">contact</a>
                        <!-- <a href="" class="btn">Protfolio</a> -->
-                       <a href="https://drive.google.com/drive/u/1/folders/1ANQon7Y9wR3X47Ji_3OtFd1L4mGJ2GH_" class="btn">Download Resume</a>
+                       <a href="" class="btn">Download Resume</a>
                    </div>
                    <div class="home-img"> 
                        <div class="img-box">
@@ -36,10 +39,76 @@
         <!-- Home Section end -->
 
         <!-- About Sectiion Start -->
+        <section class="about-section sec-padding hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>About me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="anu.png" alt="about-img">
+                        </div>
+                        </div>
+                        <div class="about-text">
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt ipsa blanditiis, excepturi aut dolor deleniti doloremque eaque animi totam modi pariatur necessitatibus voluptatibus, assumenda quisquam rem nulla, fugit aliquam?</p>
+                          <h3>skills</h3>
+                          <div class="skills">
+                              <div class="skill-item">HTML</div>
+                              <div class="skill-item">CSS</div>
+                              <div class="skill-item">Javascript</div>
+                              <div class="skill-item">Bootstrap</div>
+                              <div class="skill-item">Tailwind CSS</div>
+                              <div class="skill-item">Material-UI</div>
+                              <div class="skill-item">MongoDB</div>
+                              <div class="skill-item">Heroku</div>
+                              <div class="skill-item">Node.js</div>
+                              <div class="skill-item">React-Bootstrap</div>
+                              <div class="skill-item">React.js</div>
+                              <div class="skill-item">Git & Github</div>
+                              <div class="skill-item">Figma</div>
+                              <div class="skill-item">VS Code</div>
+                              <div class="skill-item">Firebase</div>
+                              <div class="skill-item">Netlify</div>
+                          </div>
+
+                          <div class="about-tabs">
+                              <button type="button" class="tab-item active" data-target="#education">Education</button>
+                              <!-- <button type="button" class="tab-item" data-target="#exprience">Exprience</button> -->
+                          </div>
+            <!-- Education-start -->
+            <div class="tab-content" id="education">
+               <div class="timeline">
+                   <div class="timeline-item">
+                       <span class="data">2013 - 2016</span>
+                       <h4>bachelor of technology - <span>todfod university</span></h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deserunt.</p>
+                   </div>
+                   <div class="timeline-item">
+                       <span class="data">2013 - 2016</span>
+                       <h4>bachelor of technology - <span>todfod university</span> </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deserunt.</p>
+                   </div>
+                   <div class="timeline-item">
+                       <span class="data">2013 - 2016</span>
+                       <h4>bachelor of technology - <span>todfod university</span> </h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, deserunt.</p>
+                   </div>
+               </div>
+            </div>
+            <a href="https://drive.google.com/drive/u/1/folders/1ANQon7Y9wR3X47Ji_3OtFd1L4mGJ2GH" class="btn">Download Resume</a>
+            <a href="#" class="btn">Contact Me</a>
+            <!-- Education-end -->
+                        </div>
+                    </div>
+                </div>
+        </section>
         <!-- About Sectiion end -->
 
         <!-- Protfolio-section -->
-        <section class="protfolio-section">
+        <section class="protfolio-section sec-padding hidden">
               <div class="container">
                  <div class="row">
                      <div class="section-title">
@@ -57,17 +126,24 @@
                         <button type="button" class="btn view-project-btn">view project</button>
                         <div class="protfolio-item-details">
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis corrupti quae atque dolores velit culpa accusantium qui iure accusamus magnam nostrum, sint laborum rem est tempore distinctio facilis dicta illum!</p>
+                                <h4><u>Features</u></h4>
+                                <ul>
+                                <li> Email / Password and .Google Login Authentication Implemented using Firebase.</li>
+                                 <li> Show products data with fake API from Github.</li>
+                                </ul>
                             </div>
                             <div class="general-info">
                                 <ul>
-                                    <li>Created - <span>20 April 2021</span></li>
+                                    <li>Created - <span>12 November 2021</span></li>
                                     <li>technologies used - <span>HTML, CSS, React js, Firebase, GitHub, Netlify</span></li>
                                     <!-- <li>Role - <span>Frontend</span></li> -->
                                 </ul>
                             </div>
+                            <a href="https://helthcare-related-websit-75a84.web.app/" class="btn">Live Site</a>
+                            <a href="https://github.com/Ananna14/helthcare-related-website" class="btn">Code Link</a>
                         </div>
                     </div>
+                
                     <!-- project-2 -->
                     <div class="protfoloi-item">
                         <div class="protfolio-item-thumbnail">
@@ -78,7 +154,13 @@
                         <button type="button" class="btn view-project-btn">view project</button>
                         <div class="protfolio-item-details">
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis corrupti quae atque dolores velit culpa accusantium qui iure accusamus magnam nostrum, sint laborum rem est tempore distinctio facilis dicta illum!</p>
+                                <h4><u>Features</u></h4>
+                                <ul>
+                                <li>Volunteer-network-website including Admin panel to add people, Make admin</li>
+                                 <li>Dashboard has different functionality for user and admin. All Data is loaded by MongoDb.</li>
+                                 <li>Email / Password and .Google Login Authentication Implemented using Firebase</li>
+                                 <li>For Admin Route (email: anu@gmail.com, password: 123456) </li>
+                                </ul>
                             </div>
                             <div class="general-info">
                                 <ul>
@@ -87,8 +169,12 @@
                                     <!-- <li>Role - <span>Frontend</span></li> -->
                                 </ul>
                             </div>
+                            <a href="https://volunteer-network-websit-1fe53.firebaseapp.com/" class="btn">Live Site</a>
+                            <a href="https://github.com/Ananna14/volunteer-network-website" class="btn">Client Site</a>
+                            <a href="https://github.com/Ananna14/volunteer-network-server" class="btn">Server Site</a>
                         </div>
                     </div>
+
                     <!-- project-3 -->
                     <div class="protfoloi-item">
                         <div class="protfolio-item-thumbnail">
@@ -99,42 +185,124 @@
                         <button type="button" class="btn view-project-btn">view project</button>
                         <div class="protfolio-item-details">
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis corrupti quae atque dolores velit culpa accusantium qui iure accusamus magnam nostrum, sint laborum rem est tempore distinctio facilis dicta illum!</p>
-                            </div>
+                                <h4><u>Features</u></h4>
+                        <ul>
+                            <li>Collect data from user and store MongoDB, Atlas as well as used where needed</li>
+                         <li>Admin Can add and delete products and orders. Users can add and delete orders</li>
+                         <li>Email / Password and .Google Login Authentication Implemented using Firebase.</li>
+                         <li>For Admin Route (email: admin@admin.com, password: 123456)</li>
+                        </ul>
+                        </div>
                             <div class="general-info">
                                 <ul>
-                                    <li>Created - <span>20 April 2021</span></li>
+                                    <li>Created - <span>12 April 2021</span></li>
                                     <li>technologies used - <span>CSS, Firebase, Node js, React js, MongoDB, Heroku, Bootstrap</span></li>
                                     <!-- <li>Role - <span>Frontend</span></li> -->
                                 </ul>
                             </div>
+                            <a href="https://car-sales-a5215.web.app/" class="btn">Live Site</a>
+                            <a href="https://github.com/Ananna14/cars-client-public" class="btn">Client Site</a>
+                            <a href="https://github.com/Ananna14/car-server-public" class="btn">Server Site</a>
                         </div>
                     </div>
                     <!-- project-4 -->
-                    <!-- <div class="protfoloi-item">
+                    <div class="protfoloi-item">
                         <div class="protfolio-item-thumbnail">
-                            <img src="project-1.PNG" alt="">
+                            <img src="projects-4.PNG" alt="">
                         </div>
                         <h3 class="protfolio-item-title">Helthcare Related Website
                         </h3>
                         <button type="button" class="btn view-project-btn">view project</button>
                         <div class="protfolio-item-details">
                             <div class="description">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis corrupti quae atque dolores velit culpa accusantium qui iure accusamus magnam nostrum, sint laborum rem est tempore distinctio facilis dicta illum!</p>
+                                <h4><u>Features</u></h4>
+                                <ul>
+                                <li>Mobile Responsive website</li>
+                                 <li>Show products data with fake API from Github.</li>
+                                </ul>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>Created - <span>20 jun 2021</span></li>
+                                    <li>technologies used - <span>HTML, CSS, GitHub, Netlify</span></li>
+                                   
+                                </ul>
+                            </div>
+                            <a href="https://suspicious-rosalind-4b8ab5.netlify.app/" class="btn">Live Site</a>
+                            <!-- <a href="https://github.com/Ananna14/volunteer-network-server" class="btn">Server Site</a> -->
+                        </div>
+                    </div>
+                    <!-- project-5 -->
+                    <div class="protfoloi-item">
+                        <div class="protfolio-item-thumbnail">
+                            <img src="project-5.PNG" alt="">
+                        </div>
+                        <h3 class="protfolio-item-title">Mobile Hounda
+                        </h3>
+                        <button type="button" class="btn view-project-btn">view project</button>
+                        <div class="protfolio-item-details">
+                            <div class="description">
+                                <h4><u>Features</u></h4>
+                                <ul>
+                                    <li>Mobile Responsive website</li>
+                                 <!-- <li>Show products data with fake API from Github.</li> -->
+                                </ul>
                             </div>
                             <div class="general-info">
                                 <ul>
                                     <li>Created - <span>20 April 2021</span></li>
-                                    <li>technologies used - <span>HTML, CSS, React js, Firebase, GitHub, Netlify</span></li>
+                                    <li>technologies used - <span>HTML, CSS, GitHub, Netlify</span></li>
                                    
                                 </ul>
                             </div>
+                            <a href="https://bikes-bootstrap.netlify.app/" class="btn">Live Site</a>
+                            <a href="https://github.com/Ananna14/hungry-monster" class="btn">Code Site</a>
                         </div>
-                    </div> -->
+                    </div>
+                    <!-- protfolio-item end-->
                  </div>
               </div>
         </section>
- <!-- protfolio-item end-->
+        <!-- protfoloi-section-end -->
+        
+  </div>
+  <!-- Main-end -->
+
+
+        <!-- protfoloi-item-details-popup-start -->
+ 
+         <div class="protfolio-popup">
+          <div class="pp-inner">
+              <div class="pp-content">
+                  <div class="pp-header">
+                      <button type="button" class="btn pp-close" ><i class="fas fa-times"></i></button>
+                      <div class="pp-thumbnail">
+                          <img src="p-1.PNG" alt="pp-thumbnail">
+                      </div>
+                      <h3>Helthcare Related Website</h3>
+                  </div>
+                  <div class="pp-body">
+                    <!-- <div class="description">
+                        <h4><u>Features</u></h4>
+                        <ul>
+                            <li>Email / Password and .Google Login Authentication Implemented using Firebase.</li>
+                         <li>Show products data with fake API from Github.</li>
+                        </ul>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>Created - <span>20 April 2021</span></li>
+                            <li>technologies used - <span>HTML, CSS, React js, Firebase, GitHub, Netlify</span></li>
+                        </ul>
+                    </div> -->
+                    </div>
+              </div>
+          </div>
+         </div>
+
+
+        <!-- protfoloi-item-details-popup-end -->
+
 
         <!-- Contact-section-start -->
         <section class="contact-section sec-padding" id="contact">
@@ -175,19 +343,23 @@
                      <h3>Phone</h3>
                      <p>+88 **** *****</p>
                  </div>
-                 <!-- <div class="contact-info-item">
-                     <h3>follow me</h3>
-                     <div class="social-links">
-                         <a href=""></a>
-                     </div>
-                 </div> -->
+                 <div class="contact-info-item">
+                     <h3>Follow me</h3>
+                    <div class="social-links">
+                        <a href=""><i class="far fa-envelope-open"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                        <a href=""> <i class="fab fa-github"></i></a>
+                    </div>
+                 </div>
              </div>
         </section>
         <!-- Contact-section-end -->
 
         <!-- connect-js -->
-       
-    </div>
-   
+
+
+
+    <!-- java-script -->
+   <script src="app.js"></script>
 </body>
 </html>

@@ -15,18 +15,39 @@
 </head>
 <body>
     <div class="main">
+        <!-- Header-strat -->
+<header class="header">
+  <div class="container">
+      <div class="row flex-end">
+          <button type="button" class="nav-toggle">
+            <span></span>
+          </button>
+          <nav class="nav">
+              <div class="nav-inner">
+                  <ul>
+                      <li><a href="#home" class="nav-item link-item">Home</a></li>
+                      <li><a href="#about" class="nav-item link-item">About</a></li>
+                      <li><a href="#protfolio" class="nav-item link-item">portfolio</a></li>
+                      <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+                  </ul>
+              </div>
+            </nav>
+      </div>
+  </div>
+</header>
+ 
+
         <!-- home-section-start -->
-        <section class="home-section align-item-center hidden">
+        <section class="home-section align-item-center active" id="home">
            <div class="container">
                <div class="row align-item-center">
                    <div class="home-text">
                        <p>Hello I'm</p>
                        <h1>Fahmida Tasnin Ananna</h1>
                        <h2>Front End Developer</h2>
-                       <a href="" class="btn">more about me</a>
-                       <a href="/contact" class="btn">contact</a>
-                       <!-- <a href="" class="btn">Protfolio</a> -->
-                       <a href="" class="btn">Download Resume</a>
+                       <a href="#about" class="btn link-item">more about me</a>
+                       <a href="#protfolio" class="btn link-item">Protfolio</a>
+                       <a href="" class="btn link-item">Download Resume</a>
                    </div>
                    <div class="home-img"> 
                        <div class="img-box">
@@ -39,7 +60,7 @@
         <!-- Home Section end -->
 
         <!-- About Sectiion Start -->
-        <section class="about-section sec-padding hidden">
+        <section class="about-section sec-padding" id="about">
             <div class="container">
                 <div class="row">
                     <div class="section-title">
@@ -98,8 +119,8 @@
                    </div>
                </div>
             </div>
-            <a href="https://drive.google.com/drive/u/1/folders/1ANQon7Y9wR3X47Ji_3OtFd1L4mGJ2GH" class="btn">Download Resume</a>
-            <a href="#" class="btn">Contact Me</a>
+            <a href="Fahmida(Resume).pdf" target="_blank" class="btn">Download Resume</a>
+            <a href="#contact" class="btn link-item">Contact Me</a>
             <!-- Education-end -->
                         </div>
                     </div>
@@ -108,7 +129,7 @@
         <!-- About Sectiion end -->
 
         <!-- Protfolio-section -->
-        <section class="protfolio-section sec-padding hidden">
+        <section class="protfolio-section sec-padding" id = "protfolio">
               <div class="container">
                  <div class="row">
                      <div class="section-title">
